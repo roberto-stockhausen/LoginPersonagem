@@ -12,9 +12,11 @@ document.getElementById("toggle").onclick = () => {
     }
     if (mode == 2){
     document.getElementById("LoginText").innerHTML = "Cadastro";
+    document.getElementById("ButtomLogin").innerHTML = "Cadastrar-se";
     }
     if (mode == 1){
     document.getElementById("LoginText").innerHTML = "Login";
+    document.getElementById("ButtomLogin").innerHTML = "Entrar";
     }
     console.log(mode);
     cancel = 0;
