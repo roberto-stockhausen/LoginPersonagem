@@ -19,19 +19,27 @@ document.getElementById("toggle").onclick = () => {
     cancel = 0;
 } 
 
-document.getElementById("loginplaceholder").addEventListener("submit", function(e){
 
-    let email = document.getElementById("email").value;
-    let senha = document.getElementById("senha").value;
+document.getElementById("form-login").addEventListener("submit", function(e){
 
-    if (!email.includes("@")){
-        alert("E-mail Inválido")
-        cancel = 1;
+    e.preventDefault();
+
+    let nome = document.getElementById("userName").value;
+    let senha = document.getElementById("userPass").value;
+    console.log(nome);
+    console.log(senha);
+
+    if (nome == "")
+    {
+
     }
 
     if (senha.length < 8){
         alert("Senha muito curta!")
         cancel = 1;
     }
-    
+
+
+
+
 })
