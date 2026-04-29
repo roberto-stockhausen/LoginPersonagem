@@ -43,9 +43,6 @@ document.getElementById("form-login").addEventListener("submit", function(e){
 
 if (mode == 2){
         if (cancel == 0){
-        let AlreadyExists = localStorage.getItem(nome[1]);
-        console.log(nome);
-        console.log(AlreadyExists);
         localStorage.setItem(nome,senha);
         mensagem.innerHTML = "<div> <p> Cadastro com sucesso </p> </div>"
         cancel = 1;
