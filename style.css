@@ -28,3 +28,6 @@ background-color: var(--cor-fundo-escuro);
     height: 300px;
     padding: 20px;
 }
+.MainImage{
+    margin: 48px;
+}
