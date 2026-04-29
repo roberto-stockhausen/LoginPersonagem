@@ -12,11 +12,11 @@ document.getElementById("toggle").onclick = () => {
     }
     if (mode == 2){
     document.getElementById("LoginText").innerHTML = "Cadastro";
-    document.getElementById("ButtomLogin").innerHTML = "Cadastrar-se";
+    document.getElementById("ButtonLogin").innerHTML = "Cadastrar-se";
     }
     if (mode == 1){
     document.getElementById("LoginText").innerHTML = "Login";
-    document.getElementById("ButtomLogin").innerHTML = "Entrar";
+    document.getElementById("ButtonLogin").innerHTML = "Entrar";
     }
     console.log(mode);
     cancel = 0;
@@ -43,6 +43,9 @@ document.getElementById("form-login").addEventListener("submit", function(e){
 
 if (mode == 2){
         if (cancel == 0){
+        let AlreadyExists = localStorage.getItem(nome[1]);
+        console.log(nome);
+        console.log(AlreadyExists);
         localStorage.setItem(nome,senha);
         mensagem.innerHTML = "<div> <p> Cadastro com sucesso </p> </div>"
         cancel = 1;
