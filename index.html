@@ -7,16 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Kirby</h1>
+    <header >
+        <nav class="nav justify-content-center">
+
+            <h1>Kirby</h1>
+        </nav>
     </header>
     <main>
         <div>
-            <h2>Login</h2>
-            <input type="text" placeholder="Ex:Joaozinho" id="userName" class="" >
-            <label for="userName"></label>
-            <input type="password" placeholder="Ex:123123tt" id="userPass" required>
-            <label for="userPass"></label>
+            <form id="form-login">
+
+                <h2>Login</h2>
+                <input type="text" placeholder="Ex:Joaozinho" id="userName" class="" >
+                <label for="userName"></label>
+                <input type="password" placeholder="Ex:123123tt" id="userPass" required>
+                <label for="userPass"></label>
+                <button type="submit">botao</button>
+            </form>
         </div>
         <script src="scripts.js"></script>
     </main>
