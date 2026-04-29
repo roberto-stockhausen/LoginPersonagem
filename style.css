@@ -2,7 +2,11 @@
     --cor-fundo-escuro: #f07dae;
     --cor-fundeiro: #ff8ec6;
 }
-#KirbyLogo{
+#KirbyLogo1{
+    height: 150px;
+    width: auto;
+}
+#KirbyLogo2{
     height: 250px;
     width: auto;
 }
