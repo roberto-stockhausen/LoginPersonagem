@@ -2,6 +2,9 @@
     height: 150px;
     width: auto;
 }
+.c-Login{
+    background-color: #f07dae;
+}
 body{
     background-color: #ff8ec6;
 }
