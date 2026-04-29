@@ -29,7 +29,7 @@ document.getElementById("form-login").addEventListener("submit", function(e){
     console.log(nome);
     console.log(senha);
 
-    if (nome == "")
+    if (nome == null)
     {
 
     }
