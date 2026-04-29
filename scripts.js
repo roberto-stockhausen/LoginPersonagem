@@ -2,6 +2,7 @@ let mode = 1
 // 1 = login
 // 2 = cadastro
 let cancel = 0;
+let time = 120;
 
 document.getElementById("toggle").onclick = () => {
     if (mode == 2){
@@ -10,10 +11,10 @@ document.getElementById("toggle").onclick = () => {
         mode = 2;
     }
     if (mode == 2){
-    
+    document.getElementById("LoginText").innerHTML = "Cadastro";
     }
     if (mode == 1){
-    
+    document.getElementById("LoginText").innerHTML = "Login";
     }
     console.log(mode);
     cancel = 0;
@@ -26,8 +27,6 @@ document.getElementById("form-login").addEventListener("submit", function(e){
     cancel = 0;
     let nome = document.getElementById("userName").value;
     let senha = document.getElementById("userPass").value;
-    console.log(nome);
-    console.log(senha);
 
     if (nome.length < 1)
     {
@@ -43,15 +42,23 @@ document.getElementById("form-login").addEventListener("submit", function(e){
 if (mode == 2){
         if (cancel == 0){
         localStorage.setItem(nome,senha);
-        alert("cadastrado com sucesso");
-        cancel = 1
+        mensagem.innerHTML = "<div> <p> Cadastro com sucesso </p> </div>"
+        cancel = 1;
         }
     }
     else{
         let checker = localStorage.getItem(nome);
         if (checker === senha) {
             mensagem.innerHTML = "<div> <p> Login com sucesso </p> </div>"
-            window.location.href = 'forum.html';
+            setInterval(function() {
+            if (time >= 1)
+            {
+            time -= 1;
+            } 
+            else
+            {
+            window.location.href = "forum.html";
+            } }, 10);
         }
         else{
              mensagem.innerHTML = "<div> <p> Dados incorretos </p> </div>"
