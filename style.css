@@ -35,3 +35,7 @@ background-color: var(--cor-fundo-escuro);
 .MainImage{
     margin: 48px;
 }
+
+.Kawasaki{
+    position: relative;
+}
