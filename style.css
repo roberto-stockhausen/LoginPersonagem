@@ -15,3 +15,11 @@ body{
 footer{
 background-color: #f07dae;
 }
+.buttomlogin{
+    width: 120px;
+}
+.darkpink{
+    background-color: #b1457b;
+    height: 300px;
+    padding: 20px;
+}
