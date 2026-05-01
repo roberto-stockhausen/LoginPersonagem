@@ -1,0 +1,12 @@
+let timer = 120;
+document.getElementById("togglePresentation").onclick = () => {
+setInterval(function() {
+            if (time >= 1)
+            {
+            time -= 1;
+            } 
+            else
+            {
+            window.location.href = "forum.html";
+            } }, 10);
+}
