@@ -59,14 +59,11 @@ if (mode == 2){
             } 
             else
             {
-            window.location.href = "forum.html";
+            window.location.href = "Forum/forum.html";
             } }, 10);
         }
         else{
              mensagem.innerHTML = "<div> <p> Dados incorretos </p> </div>"
         }
     }
-
-
-
-})
+});

@@ -7,10 +7,10 @@
     width: auto;
 }
 #KirbyLogo2{
-    height: 250px;
+    height: 150px;
     width: auto;
 }
-.c-Login{
+.corFundo{
     background-color: var(--cor-fundo-escuro);
 }
 body{
@@ -30,8 +30,6 @@ bottom: 0px;
 }
 .darkpink{
     background-color: #b1457b;
-    height: 300px;
-    padding: 20px;
 }
 .MainImage{
     margin: 48px;
@@ -39,4 +37,14 @@ bottom: 0px;
 
 .Kawasaki{
     position: relative;
+}
+.posFooter{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.adapt{
+    height: auto;
+    width: 50%;
 }
