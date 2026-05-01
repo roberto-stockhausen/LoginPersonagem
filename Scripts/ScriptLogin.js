@@ -60,6 +60,7 @@ if (mode == 2){
             else
             {
             window.location.href = "forum.html";
+            time = 120;
             } }, 10);
         }
         else{
