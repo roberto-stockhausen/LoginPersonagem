@@ -59,7 +59,7 @@ if (mode == 2){
             } 
             else
             {
-            window.location.href = "Forum/forum.html";
+            window.location.href = "forum.html";
             } }, 10);
         }
         else{
