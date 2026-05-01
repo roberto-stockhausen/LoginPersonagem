@@ -1,61 +1,94 @@
-:root{
+:root {
     --cor-fundo-escuro: #f07dae;
     --cor-fundeiro: #ff8ec6;
 }
-#KirbyLogo1{
+
+#KirbyLogo1 {
     height: 150px;
     width: auto;
 }
-#KirbyLogo2{
+
+#KirbyLogo2 {
     height: 150px;
     width: auto;
-    margin: 30px;
+    margin: 10px;
 }
-.corFundo{
+
+.corFundo {
     background-color: var(--cor-fundo-escuro);
 }
-body{
+
+body {
     background-color: var(--cor-fundeiro);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.Kirby_espera{
+
+.Kirby_espera {
     height: 40px;
     width: auto;
 }
-footer{
-background-color: var(--cor-fundo-escuro);
-bottom: 0px;
+
+footer {
+    background-color: var(--cor-fundo-escuro);
+    bottom: 0px;
 }
-.buttomlogin{
+
+.buttomlogin {
     width: 120px;
 }
-.darkpink{
+
+.darkpink {
     background-color: #b1457b;
 }
-.MainImage{
+
+.MainImage {
     margin: 48px;
 }
 
-.Kawasaki{
+.Kawasaki {
     position: relative;
     width: 360px;
     height: 360px;
     min-width: 360px;
     margin-left: 90px;
 }
-.posFooter{
+
+.posFooter {
     position: fixed;
     bottom: 0px;
     width: 100%;
 }
 
-.adapt{
-    height: auto;
-    width: 50%;
+.adapt {
+    height: 100%;
+    width: auto;
 }
-.FlyKirby{
+
+.FlyKirby {
     width: 240px;
     height: 240px;
     margin: 90px;
     margin-right: 120px;
+}
+
+.zoom-image {
+    transition: transform 0.5s ease;
+}
+
+.zoom-image:hover {
+    transform: scale(1.05);
+    /* Aumenta para 1.5x o tamanho original */
+}
+
+.HomePageBack {
+    height: 100px;
+    width: auto;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
