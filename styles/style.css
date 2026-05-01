@@ -9,6 +9,7 @@
 #KirbyLogo2{
     height: 150px;
     width: auto;
+    margin: 30px;
 }
 .corFundo{
     background-color: var(--cor-fundo-escuro);
@@ -37,6 +38,10 @@ bottom: 0px;
 
 .Kawasaki{
     position: relative;
+    width: 360px;
+    height: 360px;
+    min-width: 360px;
+    margin-left: 90px;
 }
 .posFooter{
     position: fixed;
@@ -47,4 +52,10 @@ bottom: 0px;
 .adapt{
     height: auto;
     width: 50%;
+}
+.FlyKirby{
+    width: 240px;
+    height: 240px;
+    margin: 90px;
+    margin-right: 120px;
 }
