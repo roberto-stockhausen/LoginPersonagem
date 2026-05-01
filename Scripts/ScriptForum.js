@@ -1,4 +1,4 @@
-let time = 120;
+let time = 120; // se pedirem para "Otimizar o código" nós diminuimos esse número (>ᴗ•)
 document.getElementById("togglePresentation").onclick = () => {
 time = 120;
 let id001 = setInterval(function() {

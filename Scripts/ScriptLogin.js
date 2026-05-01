@@ -52,7 +52,7 @@ if (mode == 2){
         let checker = localStorage.getItem(nome);
         if (checker === senha) {
             mensagem.innerHTML = "<div> <p> Login com sucesso </p> </div>"
-            setInterval(function() {
+            let id000 = setInterval(function() {
             if (time >= 1)
             {
             time -= 1;
@@ -60,6 +60,7 @@ if (mode == 2){
             else
             {
             window.location.href = "forum.html";
+            clearInterval(id000)
             time = 120;
             } }, 10);
         }
