@@ -36,9 +36,24 @@ footer {
 .buttomlogin {
     width: 120px;
 }
+.ProfilePic{
+    width: 64px;
+    max-height: 64px;
+    margin: 6px;
+    border-radius: 32px;
+    background-color: #b1457b;
+}
 
 .darkpink {
     background-color: #b1457b;
+}
+
+.comment{
+    padding: 12px;
+    margin: 12px;
+}
+.flex{
+    display: flex;
 }
 
 .MainImage {
